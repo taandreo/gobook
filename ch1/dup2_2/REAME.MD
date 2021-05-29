@@ -1,0 +1,1 @@
+Igual o dup 2 inicial, porém esse mostra o nome do arquivo na saída do comando.

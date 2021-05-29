@@ -13,8 +13,9 @@ func main(){
 	for input.Scan() {
 		counts[input.Text()]++
 	}
-
 	for key, value := range counts {
-		fmt.Printf("%d\t%s\n", value, key)
+		if value > 1 {
+			fmt.Printf("%d\t%s\n", value, key)
+		}
 	}
 }
